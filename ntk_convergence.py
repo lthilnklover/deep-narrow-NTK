@@ -135,7 +135,7 @@ def main(args):
 
             train_loss = []
 
-            # randomly sample a point from 1st quadrant of the unit circle and train f((x1, x2)) = x1 * x2
+            # train with GD to approximate f((x1, x2)) = x1 * x2
             for iteration in range(args.iterations):
                 logger.info(f"Iteration {iteration + 1:5d} / {args.iterations:5d}")
 
@@ -217,6 +217,7 @@ def main(args):
     plt.savefig(os.path.join(output_dir, 'ntk_plot.png'))
     plt.cla()
 
+    # Check how well f^* is approximated
     plt.xlabel(r'$\gamma$')
     plt.ylabel(r'$f_\theta^L(\cos(\gamma), \sin(\gamma))$')
     plt.plot(train_angles, y.cpu().numpy(), 'k-', linewidth=0.7, label=r'True function $f^\star$')
