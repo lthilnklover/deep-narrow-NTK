@@ -50,7 +50,7 @@ optional arguments:
 For example,
   
 ```
-python ntk_convergence.py --init custom --depths 100 10000 --num_trials 10 --iterations 2000 --dtype float64 --scales 5 50000 --learning_rate 0.0001 1e-14 --output_dir /extdata1/lthilnklover/ntk_experiment/sub_test/ --dev_num 0 --seed 0
+python ntk_convergence.py --init custom --depths 100 10000 --num_trials 10 --iterations 2000 --dtype float64 --scales 5 50000 --learning_rate 0.0001 1e-14 --output_dir ./result --dev_num 0 --seed 0
 ```
 
 ### Mnist Training
