@@ -1,6 +1,5 @@
 import torch
 import os
-import torch.distributed as dist
 import argparse
 import numpy as np
 import random
@@ -42,14 +41,3 @@ def round_to_nearest_int(x):
     for i in range(len(x)):
         x[i] = round(x[i].item())
     return x.type(torch.uint8)
-
-
-def setup(rank, world_size):
-    os.environ['MASTER_ADDR'] = 'localhost'
-    os.environ['MASTER_PORT'] = '12345'
-
-    dist.init_process_group("gloo", rank=rank, world_size=world_size)
-
-
-def clean_up():
-    dist.destroy_process_group()
