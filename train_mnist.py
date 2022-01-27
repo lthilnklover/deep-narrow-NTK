@@ -131,11 +131,11 @@ def main(args):
         subset = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
         num_out = 10
 
-    train_ds = mnist_subset(root='/extdata1/lthilnklover/data', train=True, download=True, transform=T.ToTensor(),
+    train_ds = mnist_subset(root='./data', train=True, download=True, transform=T.ToTensor(),
                             subset=subset)
     train_dl = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True)
 
-    test_ds = mnist_subset(root='/extdata1/lthilnklover/data', train=False, download=True, transform=T.ToTensor(),
+    test_ds = mnist_subset(root='./data', train=False, download=True, transform=T.ToTensor(),
                           subset=subset)
     test_dl = DataLoader(test_ds, batch_size=args.batch_size, shuffle=False)
 
