@@ -80,7 +80,7 @@ optional arguments:
  For example
  1) MLP 4000 Depth
  ```
- python train_mnist.py --type mlp --binary False --init custom --depth 4000 --scale 4 --learning_rate 1e-5 --epochs 2000 --batch_size 512 --eval_every 50 --output_dir ./result --dev_num 0 1 2 3 --seed 0 --dtype float32
+ python train_mnist.py --type mlp --binary False --init custom --depth 4000 --scale 4 --learning_rate 1e-5 --epochs 500 --batch_size 512 --eval_every 50 --output_dir ./result --dev_num 0 1 2 3 --seed 0 --dtype float32
  ```
  
  2) CNN L = 4000, 10 classes
