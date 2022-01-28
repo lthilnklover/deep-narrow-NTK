@@ -13,7 +13,7 @@ This is an repository for [NTK Analysis of Deep Narrow Neural Networks]().
 <img src="thumbnail.png" width="490" height="430">
 
 ## Requirements
-All the necessary packages required to run the codes are reported in `requirements.txt`.
+All the necessary packages required to run the codes are reported in `requirements.txt` where you can replicate the enviromnemt using conda.
   
 The main packages are:
 
