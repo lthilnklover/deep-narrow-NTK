@@ -190,8 +190,7 @@ def main(args):
     # Plot the results #
     ####################
     plt.rcParams.update({'font.size': 16})
-    plt.rcParams.update({'figure.figsize': (3200, 2000)})
-    plt.rcParams.update({'figure.dpi': 1})
+    plt.rcParams.update({'figure.figsize': (8.0, 5.0)})
 
     color_list = ['r', 'g', 'b', 'c', 'm', 'y']
 
