@@ -10,7 +10,7 @@
 This is an repository for [NTK Analysis of Deep Narrow Neural Networks]().
 
 <p align="center">
-<img src="thumnail.png" width="400" height="200">
+<img src="thumnail.pdf" width="320" height="220">
 
 ## Requirements
 All the necessary packages required to run the codes are reported in `requirements.txt`.
