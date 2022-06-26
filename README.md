@@ -7,7 +7,7 @@
 
 <br>
 
-This is an repository for [NTK Analysis of Deep Narrow Neural Networks]().
+This is an repository for [NTK Analysis of Deep Narrow Neural Networks](https://arxiv.org/abs/2202.02981).
 
 <p align="center">
 <img src="thumbnail.png" width="490" height="430">
