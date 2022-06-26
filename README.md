@@ -93,7 +93,7 @@ optional arguments:
  python train_mnist.py --type cnn --binary True --init custom --depth 12000 --scale 12 --learning_rate 1e-8 --epochs 1000 --batch_size 512 --eval_every 50 --output_dir ./result --dev_num 0 1 2 3 --seed 0 --dtype float64
 ```
  
- ##Citation
+ ## Citation
  
  ```
  @article{lee2022neural,
