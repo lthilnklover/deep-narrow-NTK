@@ -81,7 +81,7 @@ def main(args):
             "depth_" + str(args.depth),
             "init_none",
             "dtype_" + args.dtype,
-            "learning_rate_" + str(args.learning_rate / (args.scale ** 2)),
+            "learning_rate_" + str(args.learning_rate),
             "epochs_" + str(args.epochs),
             "batch_size_" + str(args.batch_size),
             "date_" + datetime.now().strftime("%Y_%m_%d_%H_%M_%S")
