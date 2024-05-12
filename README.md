@@ -96,10 +96,10 @@ optional arguments:
  ## Citation
  
  ```
- @article{lee2022neural,
-  title={Neural Tangent Kernel Analysis of Deep Narrow Neural Networks},
+@inproceedings{lee2022neural,
+  title={Neural tangent kernel analysis of deep narrow neural networks},
   author={Lee, Jongmin and Choi, Joo Young and Ryu, Ernest K and No, Albert},
-  journal={arXiv preprint arXiv:2202.02981},
+  booktitle={International Conference on Machine Learning},
   year={2022}
 }
 ```
